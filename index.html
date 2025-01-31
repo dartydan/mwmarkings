@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,7 +19,6 @@
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -34,50 +34,115 @@
         </section>
 
         <section id="services" class="services">
-            <h2>Our Services</h2>
+            <h2 class="fade-in">Our Services</h2>
             <div class="service-grid">
-                <div class="service-card">
-                    <h3>Parking Lot Striping</h3>
-                    <p>Professional line striping for parking lots with ADA-compliant spaces and clear traffic flow</p>
+                <div class="service-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1573348722427-f1d6819fdf98" alt="Parking lot with fresh line striping">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.08 3.11H5.77L6.85 7zM19 17H5v-5h14v5z"/>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Parking Lot Striping</h3>
+                        <p>Professional line striping for parking lots with ADA-compliant spaces and clear traffic flow. We ensure precise measurements and durable markings.</p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Warehouse Marking</h3>
-                    <p>Safety lines, zone marking, and organizational striping for warehouses</p>
+                <div class="service-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d" alt="Warehouse with safety line markings">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Warehouse Marking</h3>
+                        <p>Safety lines, zone marking, and organizational striping for warehouses. Create efficient workflows with clear visual guidance.</p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Sports Courts</h3>
-                    <p>Precise line marking for basketball courts, tennis courts, and other athletic facilities</p>
+                <div class="service-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1509027572446-af8401acfdc3" alt="Basketball court with fresh line markings">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Sports Courts</h3>
+                        <p>Precise line marking for basketball courts, tennis courts, and other athletic facilities. Professional-grade markings that meet regulation standards.</p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Custom Stenciling</h3>
-                    <p>Custom designs and stenciling for logos, directional markers, and special purposes</p>
+                <div class="service-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1580893246395-52aead8960dc" alt="Custom stenciled markings">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 22C6.49 22 2 17.51 2 12S6.49 2 12 2s10 4.04 10 9c0 3.31-2.69 6-6 6h-1.77c-.28 0-.5.22-.5.5 0 .12.05.23.13.33.41.64 1.06 1.06.64 1.67A2.5 2.5 0 0 1 12 22zm0-18c-4.41 0-8 3.59-8 8s3.59 8 8 8c.28 0 .5-.22.5-.5a.54.54 0 0 0-.14-.35c-.41-.46-.63-1.05-.63-1.65a2.5 2.5 0 0 1 2.5-2.5H16c2.21 0 4-1.79 4-4 0-3.86-3.59-7-8-7z"/>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Custom Stenciling</h3>
+                        <p>Custom designs and stenciling for logos, directional markers, and special purposes. Make your space unique with personalized markings.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="about" class="about">
-            <h2>About Midwest Markings</h2>
-            <div class="about-content">
-                <p>Midwest Markings is a family-owned business dedicated to delivering exceptional line striping services across Indiana. We take pride in our work, using custom-formulated paint that ensures durability and longevity.</p>
-                <p>Our commitment to quality and customer service sets us apart, making us the trusted choice for businesses, homeowners, and municipalities throughout the region.</p>
+            <h2 class="fade-in">About Midwest Markings</h2>
+            <div class="about-content fade-in">
+                <p>Midwest Markings is a family-owned business specializing in high-quality line striping, stenciling, and maintenance for parking lots, warehouses, sports courts, and more across Indiana. We proudly serve commercial, residential, and municipal clients, delivering precision markings with durable, custom-formulated paint that outlasts standard options. With a strong commitment to quality and customer service, we ensure clear, professional, and long-lasting results for every project.</p>
             </div>
         </section>
 
         <section id="contact" class="contact">
-            <h2>Contact Us</h2>
-            <div class="contact-container">
-                <form class="contact-form">
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="tel" placeholder="Phone">
-                    <textarea placeholder="Tell us about your project" required></textarea>
-                    <button type="submit" class="submit-button">Request Quote</button>
-                </form>
+            <h2 class="fade-in">Contact Us</h2>
+            <div class="contact-container fade-in">
                 <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>Phone: (XXX) XXX-XXXX</p>
-                    <p>Email: info@midwestmarkings.com</p>
-                    <p>Serving all of Indiana</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>(765) 280-0057</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>service@mwmarkings.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-hours">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Business Information</h4>
+                                <div class="info-section">
+                                    <h5>Hours</h5>
+                                    <p>Monday - Saturday: Open</p>
+                                    <p>Sunday: Closed</p>
+                                </div>
+                                <div class="info-section">
+                                    <h5>Service Area</h5>
+                                    <p>All of Indiana</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -88,19 +153,20 @@
             <div class="footer-info">
                 <h3>Midwest Markings</h3>
                 <p>Professional Line Striping Services</p>
+                <p>Serving all of Indiana</p>
                 <p>Licensed & Insured</p>
             </div>
             <div class="footer-links">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#about">About Us</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Midwest Markings. All rights reserved.</p>
+            <p>&copy; 2025 Midwest Markings. All rights reserved.</p>
         </div>
     </footer>
 </body>
